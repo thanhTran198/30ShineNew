@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>quản lý sinh viên</title>
+</head>
+<body>
+    <div class="main">
+        <div class="information">
+            <h2 class="informationSV">Quản lý sinh viên</h2>
+            <p class="introduce">
+                Một số chức năng chính của quảng lý sinh viên:</br>
+                - thêm, sửa, xóa sinh viên.</br>
+                - lưu, lấy sanh sách sinh viên vào Storage</br>
+            </p>
+            <p class="name">Mã SV:</p>
+            <input type="text" class="information__input maSV" placeholder="nhập mã sinh viên" value="01">
+            <p class="name">Họ Tên:</p>
+            <input type="text" class="information__input HoTen" placeholder="nhập họ tên..." value="Trần Hữu Thành">
+            <p class="name">CMND:</p>
+            <input type="text" class="information__input CMND" placeholder="nhập chứng minh nhân dân..." value="206199524">
+            <p class="name">Email:</p>
+            <input type="text" class="information__input Email" placeholder="nhập Email..." value="tranhuuthanh20021998@gmail.com">
+            <p class="name">Điện thoại:</p>
+            <input type="text" class="information__input dienthoai" placeholder="nhập số điện thoại..." value="0703962534">
+            <div class="gender">
+                <p class="name gender-name">Giới tính:</p>
+                <input type="radio" id="gender_male" class="gender-check gender-check-male" name="gender" value="Nam">
+                <label class="gender-male">Nam</label><br>
+                <input type="radio" id="gender_female" class="gender-check gender-check-female" name="gender" value="Nữ">
+                <label class="gender-female">Nữ</label><br>
+            </div>
+            <button class="addsv" onclick="ThemSinhvien()">Thêm sinh viên</button>
+        </div>
+        <div class="buttomSV">
+            <button class="buttomSV__buttom saveStorage" onclick="SetStorage()">lưu storage</button>
+            <button class="buttomSV__buttom getStorage" onclick="GetStorage()">lấy storage</button>
+        </div>
+
+        <h2 class="listSV">Danh sách sinh viên</h2>
+        <table class="table-listsv">
+            <thead>
+                <th>Mã SV</th>
+                <th>Họ tên</th>
+                <th>CMND</th>
+                <th>Email</th>
+                <th>Điện thoại</th>
+                <th>Giới tính</th>
+                <th>tùy chọn</th>
+            </thead>
+            <tbody class="tbodySinhVien">
+                <!-- <tr class="trSinhVien">
+                    <td>01</td>
+                    <td>thành</td>
+                    <td>206199524</td>
+                    <td>thanh@gmail.com</td>
+                    <td>0375812500</td>
+                    <td>nam</td>
+                    <td>
+                        <button style="margin:4px">xóa</button>
+                        <button style="margin:4px">sửa</button>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <!-- <div class="test">
+        <input id="check1" type="radio" name="" checked="">
+        <input id="check2" type="radio" name="">
+        <button onclick="test123()">click</button>
+    </div> -->
+    
+    <!-- <script src="./sinhvien.js"></script>
+    <script src="./danhSachSinhVien.js"></script>
+    <script src="./validation.js"></script>
+    <script src="main.js"></script> -->
+
+    <!-- <script src="./trangSV.js"></script> -->
+
+    <script src="./nhap1.js"></script>
+</body>
+</html>

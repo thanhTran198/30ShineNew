@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    padding-top: 20px;
+    width: 115vh;
+    margin: 0 auto;
+}
+
+.informationSV {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.name {
+    font-size: 16px;
+    padding: 15px 0 4px 0;
+}
+
+.gender {
+    display: flex;
+    align-items: baseline;
+}
+
+.gender-name {
+    margin-right: 12px;
+}
+
+.gender-male {
+    margin-right: 12px;
+}
+
+.gender-check {
+    margin: 0 4px;
+}
+
+.information__input {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+
+.addsv {
+    margin: 15px 0;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: rgb(19, 131, 19);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.addsv:hover {
+    opacity: 0.9;
+}
+
+.buttomSV {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttomSV__buttom {
+    padding: 8px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    min-width: 120px;
+}
+
+.buttomSV__buttom:hover {
+    opacity: 0.9;
+}
+
+.saveStorage {
+    background-color: rgb(19, 131, 19);
+}
+
+.getStorage {
+    margin: 0 10px;
+    background-color: rgb(44, 121, 194);
+}
+
+.deleteSv {
+    background-color: rgba(255, 2, 2, 0.932);
+}
+
+#search {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+.search {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+
+.searchSV {
+    min-width: 100px;
+    background-color:rgb(138, 138, 138);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.delete-sv, .fix-sv {
+    margin:4px;
+}
+
+.listSV {
+    margin: 20px 0;
+}
+
+.masv, .hoten, .cmnd, .email, .sdt, .gender-sv, .option-listsv {
+    text-align: center;
+} 
+
+table {
+    width: 100%;
+}
+
+table, th, td{
+    font-weight: 300;
+    border:1px solid black;
+}
+table{
+    border-collapse:collapse;
+}
